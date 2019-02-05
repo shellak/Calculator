@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".app.KeyPanelFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="5"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/keyPanel_right_bracket"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/left_bracket"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_left_bracket"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/right_bracket"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_clearEntry"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/clearEntry"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_division"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/division"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/keyPanel_seven"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/seven"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_eight"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/eight"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_nine"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/nine"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_multiplication"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/multiplication"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/keyPanel_four"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/four"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_five"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/five"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_six"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/six"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_subtraction"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/subtraction"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/keyPanel_one"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/one"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_two"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/two"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_three"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/three"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_addition"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/addition"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="4">
+
+            <Button
+                android:id="@+id/keyPanel_allClear"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/allClear"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_zero"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/zero"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_point"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/point"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+            <Button
+                android:id="@+id/keyPanel_result"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/key_panel_button_background"
+                android:text="@string/result"
+                android:textColor="@color/colorAccent"
+                android:textSize="35sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
