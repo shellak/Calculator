@@ -175,7 +175,7 @@ public class DisplayFragment extends Fragment {
         if(ExtensionsKt.isOperator(tokens.get(tokens.size() - 1)))
             tokens.set(tokens.size() - 1, token);
         else
-        if(tokens.get(tokens.size() - 1) == ".") {
+        if(tokens.get(tokens.size() - 1).equals(".")) {
             addNumericToken("0");
             tokens.add(token);
         }
@@ -187,13 +187,16 @@ public class DisplayFragment extends Fragment {
         boolean flag = true;
 
         if(!tokens.isEmpty()) {
-            for (int i = tokens.size() - 1; i >= 0; i--)
-                if (!ExtensionsKt.isNumeric(tokens.get(i))) break;
-                else if (tokens.get(i) != "0") {
-                    flag = true;
-                    break;
-                } else
-                    flag = false;
+            if(tokens.size() == 1 && tokens.get(0).equals("0"))
+                flag = false;
+            else
+                for (int i = tokens.size() - 1; i >= 0; i--)
+                    if (!ExtensionsKt.isNumeric(tokens.get(i))) break;
+                    else if (!tokens.get(i).equals("0")) {
+                        flag = true;
+                        break;
+                    } else
+                        flag = false;
         }
 
         if(flag)
